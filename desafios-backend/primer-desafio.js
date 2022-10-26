@@ -16,7 +16,7 @@ addMascota(mascota){
 }
 
 countMascotas(){
-    
+    return(this.mascotas.length)
 }
 
 //Agregar libro
@@ -24,8 +24,7 @@ addBook(titulo,autor){
     this.libros.push(titulo,autor)
 }
 
-getBookNames(){
-}
+
 
 }
 
